@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manager Library — Sitio de Presentación</title>
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { background: #1a202c; color: white; padding: 40px 20px; text-align: center; border-radius: 8px; margin-bottom: 30px; }
+        h1 { margin: 0; font-size: 2.5rem; }
+        .badge { background: #3182ce; color: white; padding: 4px 12px; border-radius: 12px; font-size: 0.9rem; font-weight: bold; }
+        .card { border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .tech-stack { display: flex; gap: 10px; margin-top: 10px; }
+        .tech { background: #edf2f7; padding: 4px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: 500; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Manager Library</h1>
+        <p>Solución Técnica Desarrollada bajo la Metodología SDD</p>
+        <span class="badge">Ficha ADSO 3239188</span>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Sobre el Proyecto</h2>
+            <p><strong>Manager Library</strong> es un sistema de gestión de bibliotecas diseñado para administrar eficientemente el catálogo de libros, clasificaciones por categorías y el control estricto de préstamos vigentes o vencidos para los socios de la institución.</p>
+        </section>
+
+        <section class="card">
+            <h2>Arquitectura y Stack Tecnológico</h2>
+            <p>Siguiendo las pautas de Spec-Driven Development (SDD), la especificación de negocio original fue traducida e implementada en los siguientes entornos de desarrollo:</p>
+            <div class="tech-stack">
+                <span class="tech">Frontend: React</span>
+                <span class="tech">Backend: PHP Laravel</span>
+                <span class="tech">Base de Datos: PostgreSQL</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Capacidades Implementadas</h2>
+            <ul>
+                <li><strong>Modelo Físico Robusto:</strong> Migraciones relacionales completas con control estricto de restricciones concurrentes (disponibilidad de ejemplares).</li>
+                <li><strong>Contrato API v1:</strong> Enrutamiento estructurado para flujos operativos de autenticación, búsqueda indexada y reportes de uso.</li>
+                <li><strong>Interfaz de Usuario Reactiva:</strong> Componentes desacoplados para búsqueda dinámica y validación de reglas de negocio en formularios.</li>
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>
